@@ -1,2 +1,2 @@
 # my-portfolio-project
-created thisproject for current remote internship
+Updated the project with  advanced css3 and responsive architechture
