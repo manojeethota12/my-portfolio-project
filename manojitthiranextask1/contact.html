@@ -4,33 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Contact | Manojeet prasad's Portfolio</title>
+    <title>Contact | Manojeet Prasad's Portfolio</title>
 
-    <meta name="description" content="Contact Manojeet for web development opportunities.">
+    <meta name="description" content="Contact Manojeet for web development opportunities and collaborations.">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header role ="banner">
+<header role="banner">
+
     <h1>Contact</h1>
 
     <nav aria-label="Primary Navigation">
+
         <ul>
             <li><a href="homepage.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html" aria-current="page" >Contact</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
         </ul>
+
+        <button id="theme-toggle" aria-label="Toggle Theme">
+            🌙
+        </button>
+
     </nav>
+
 </header>
 
 <main>
 
- <main>
+    <!-- Hero Section -->
 
-    <section class="reveal active hero-about" aria-labelledby="contact-heading">
+    <section class="reveal hero" aria-labelledby="contact-heading">
 
         <h2 id="contact-heading">Let's Connect</h2>
 
@@ -43,24 +51,26 @@
 
     </section>
 
-    <section class="reveal active">
+    <!-- Contact Information -->
+
+    <section class="reveal">
 
         <h2>Contact Information</h2>
 
         <div class="contact-grid">
 
             <article>
-                <h3>Email</h3>
+                <h3>📧 Email</h3>
                 <p>manojithota@email.com</p>
             </article>
 
             <article>
-                <h3>Phone</h3>
-                <p>+91 9087654321</p>
+                <h3>📱 Phone</h3>
+                <p>+91 XXXXX XXXXX</p>
             </article>
 
             <article>
-                <h3>Location</h3>
+                <h3>📍 Location</h3>
                 <p>India</p>
             </article>
 
@@ -68,29 +78,64 @@
 
     </section>
 
-    <section class="reveal active">
+    <!-- Availability -->
+
+    <section class="reveal">
 
         <h2>Current Availability</h2>
 
         <article>
+
             <p>
                 Currently available for internships, freelance projects,
                 learning opportunities, and collaborative development work.
                 I am particularly interested in frontend development,
                 responsive web design, and user-focused digital experiences.
             </p>
+
         </article>
 
     </section>
 
-    <section class="reveal active">
+    <!-- Professional Profiles -->
+
+    <section class="reveal">
+
+        <h2>Professional Profiles</h2>
+
+        <div class="contact-grid">
+
+            <article>
+                <h3>GitHub</h3>
+                <p>View my coding projects and repositories.</p>
+            </article>
+
+            <article>
+                <h3>LinkedIn</h3>
+                <p>Connect with me professionally.</p>
+            </article>
+
+            <article>
+                <h3>Email</h3>
+                <p>Available for internships and collaborations.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Form -->
+
+    <section class="reveal">
 
         <h2>Send a Message</h2>
 
-        <form id="contact-form" aria-label="Contact Form">
+        <form id="contact-form" aria-label="Contact Form" role="form">
 
             <div>
+
                 <label for="name">Full Name</label>
+
                 <input
                     type="text"
                     id="name"
@@ -98,10 +143,13 @@
                     placeholder="Enter your full name"
                     required
                     autocomplete="name">
+
             </div>
 
             <div>
+
                 <label for="email">Email Address</label>
+
                 <input
                     type="email"
                     id="email"
@@ -109,20 +157,24 @@
                     placeholder="Enter your email address"
                     required
                     autocomplete="email">
+
             </div>
 
             <div>
+
                 <label for="message">Message</label>
+
                 <textarea
                     id="message"
                     name="message"
                     rows="6"
                     placeholder="Write your message here..."
                     required></textarea>
+
             </div>
 
             <button type="submit">
-                Send Message
+                🚀 Send Message
             </button>
 
             <p id="form-message"></p>
@@ -134,10 +186,10 @@
 </main>
 
 <footer>
-    <p>&copy; 2026 Manojeet prasad. All Rights Reserved.</p>
+    <p>&copy; 2026 Manojeet Prasad. All Rights Reserved.</p>
 </footer>
 
-
+<script src="script.js"></script>
 
 </body>
 </html>
